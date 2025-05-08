@@ -4,7 +4,7 @@
  * File ini akan digunakan untuk memanggil database
  */
 $host = "localhost";
-$dbname = "dbpuskesmas";
+$dbname = "rental_mobil";
 $username = "root";
 $password = "";
 

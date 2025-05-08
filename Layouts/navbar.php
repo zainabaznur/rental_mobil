@@ -144,9 +144,9 @@ $activeUrl = $_GET['url'] ?? ''; // Get the current URL parameter or default to 
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-        <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/rent-car-logo-design-template-0c037c26976ee5bd1ea71e457af42d34_screen.jpg?ts=1681813822" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
             style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">Rental Mobil Makmur</span>
     </a>
 
     <!-- Sidebar -->
@@ -168,21 +168,28 @@ $activeUrl = $_GET['url'] ?? ''; // Get the current URL parameter or default to 
                 <!-- Add icons to the links using the .nav-icon class -->
                 <li class="nav-header">LIST DATA</li>
                 <li class="nav-item">
-                    <a href="./?url=periksa" class="nav-link <?php echo $activeUrl === 'periksa' ? 'active' : ''; ?>">
-                        <i class="nav-icon fas fa-notes-medical"></i> <!-- Icon for Periksa -->
-                        <p>Periksa</p>
+                    <a href="./?url=armada" class="nav-link <?php echo $activeUrl === 'armada' ? 'active' : ''; ?>">
+                    <i class="nav-icon fas fa-user"></i> <!-- Icon for Periksa -->
+                        <p>Armada</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="./?url=pasien" class="nav-link <?php echo $activeUrl === 'pasien' ? 'active' : ''; ?>">
-                        <i class="nav-icon fas fa-procedures"></i> <!-- Icon for Pasien -->
-                        <p>Pasien</p>
+                    <a href="./?url=peminjaman" class="nav-link <?php echo $activeUrl === 'peminjaman' ? 'active' : ''; ?>">
+                        <i class="nav-icon fas fa-key"></i> <!-- Icon for Peminjaman -->
+                        <p>Peminjaman</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="./?url=paramedik" class="nav-link <?php echo $activeUrl === 'paramedik' ? 'active' : ''; ?>">
-                        <i class="nav-icon fas fa-user-md"></i> <!-- Icon for Paramedik -->
-                        <p>Paramedik</p>
+                    <a href="./?url=pembayaran" class="nav-link <?php echo $activeUrl === 'pembayaran' ? 'active' : ''; ?>">
+                        <i class="nav-icon fas fa-money-bill"></i> <!-- Icon for Paramedik -->
+                        <p>Pembayaran</p>
+                    </a>
+                </li>
+                <!-- filepath: c:\xampp\htdocs\pemweb2\wepp\Layouts\navbar.php -->
+                <li class="nav-item">
+                    <a href="./?url=jeniskendaraan" class="nav-link <?php echo $activeUrl === 'jeniskendaraan' ? 'active' : ''; ?>">
+                        <i class="nav-icon fas fa-car"></i> <!-- Icon for Jenis Kendaraan -->
+                        <p>Jenis Kendaraan</p>
                     </a>
                 </li>
                 <!-- <li class="nav-item">
