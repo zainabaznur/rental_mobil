@@ -168,8 +168,14 @@ $activeUrl = $_GET['url'] ?? ''; // Get the current URL parameter or default to 
                 <!-- Add icons to the links using the .nav-icon class -->
                 <li class="nav-header">LIST DATA</li>
                 <li class="nav-item">
+                    <a href="./?url=informasi" class="nav-link <?php echo $activeUrl === 'informasi' ? 'active' : ''; ?>">
+                    <i class="nav-icon fas fa-bell"></i> <!-- Icon for Periksa -->
+                        <p>Informasi</p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="./?url=armada" class="nav-link <?php echo $activeUrl === 'armada' ? 'active' : ''; ?>">
-                    <i class="nav-icon fas fa-user"></i> <!-- Icon for Periksa -->
+                    <i class="nav-icon fas fa-th"></i> <!-- Icon for Periksa -->
                         <p>Armada</p>
                     </a>
                 </li>
@@ -190,6 +196,12 @@ $activeUrl = $_GET['url'] ?? ''; // Get the current URL parameter or default to 
                     <a href="./?url=jeniskendaraan" class="nav-link <?php echo $activeUrl === 'jeniskendaraan' ? 'active' : ''; ?>">
                         <i class="nav-icon fas fa-car"></i> <!-- Icon for Jenis Kendaraan -->
                         <p>Jenis Kendaraan</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="logout.php" class="nav-link <?php echo $activeUrl === 'jeniskendaraan' ? 'active' : ''; ?>">
+                        <i class=></i> <!-- Icon for Jenis Kendaraan -->
+                        <p>Logout</p>
                     </a>
                 </li>
                 <!-- <li class="nav-item">
