@@ -169,7 +169,7 @@ $activeUrl = $_GET['url'] ?? ''; // Get the current URL parameter or default to 
                 <li class="nav-header">LIST DATA</li>
                 <li class="nav-item">
                     <a href="./?url=informasi" class="nav-link <?php echo $activeUrl === 'informasi' ? 'active' : ''; ?>">
-                    <i class="nav-icon fas fa-th"></i> <!-- Icon for Periksa -->
+                    <i class="nav-icon fas fa-bell"></i> <!-- Icon for Periksa -->
                         <p>Informasi</p>
                     </a>
                 </li>
