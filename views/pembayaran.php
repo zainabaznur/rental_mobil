@@ -17,7 +17,7 @@ if (isset($_POST['type'])) {
   <div class="card">
     <div class="card-body">
       <div class="mb-2">
-        <a class="btn btn-success btn-sm" href="?url=pembayaran-input">
+        <a class="btn btn-success btn-sm p-3 mb-2 bg-primary text-white" href="?url=pembayaran-input">
           Tambah Pembayaran
         </a>
       </div>

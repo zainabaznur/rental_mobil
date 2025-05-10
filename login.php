@@ -3,7 +3,7 @@ session_start();
 
 // Username dan password statis
 $valid_username = 'admin';
-$valid_password = 'password';
+$valid_password = '123';
 
 // Proses login
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
